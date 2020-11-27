@@ -144,7 +144,7 @@ function draw() {
      obstaclesGroup.setVelocityXEach(0);
      cloudsGroup.setVelocityXEach(0);   
      
-     if(mousePressedOver(restart)) {
+     if(mousePressedOver(restart) || touches.length > 0 ) {
       reset();
     }
      
